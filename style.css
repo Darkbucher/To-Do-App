@@ -70,3 +70,24 @@ li {
     font-size: 0.8rem;
 }
 
+/* Dark Mode */
+body.dark {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+body.dark .container {
+    background: #2d2d2d;
+}
+
+body.dark input {
+    background: #404040;
+    color: white;
+    border-color: #555;
+}
+
+body.dark li {
+    background: #404040;
+    border-bottom-color: #555;
+}
+
