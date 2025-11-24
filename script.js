@@ -51,7 +51,7 @@ taskList.addEventListener('click', (e) => {
     }
 });
 
-// Toggle dark/light theme
+// Toggle dark/light theme and save preference
 themeToggle.addEventListener('click', () => {
     const isDark = document.body.classList.toggle('dark-theme');
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
